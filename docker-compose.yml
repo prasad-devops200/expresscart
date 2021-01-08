@@ -3,7 +3,7 @@ services:
   expresscart:
     image: "node:8"
     build: .
-    container_name: "expresscart"
+    container_name: "expresscart_prasad"
     environment:
       NODE_ENV: development
       NODE_PATH: /
